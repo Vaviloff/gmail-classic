@@ -584,3 +584,36 @@ body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] > div div.qj
 body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] > div div.qj::before {
   border-radius: 0 !important;
 }
+
+/* ## Personal hacks */
+
+/* Hide "mark as unread" button */
+div[act="2"] {
+    display: none;
+}
+
+/* Hide spam button */
+div[act="9"] {
+    display: none !important;
+}
+
+/* Less space betwen button groups */
+.G-Ni.G-aE {
+    margin-right: 16px!important;
+}
+
+/* Less spacious contect menu */
+.J-N, .J-LC, .J-JK {
+    padding-left: 28px !important;
+}
+
+.J-N {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+/* Text legibility */
+
+* {
+  -webkit-font-smoothing: none !important;
+}
