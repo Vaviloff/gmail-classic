@@ -617,3 +617,7 @@ div[act="9"] {
 * {
   -webkit-font-smoothing: none !important;
 }
+
+.dF .dG, .nr, .Ar {
+    color: #000 !important;
+}
