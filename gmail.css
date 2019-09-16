@@ -621,3 +621,13 @@ div[act="9"] {
 .dF .dG, .nr, .Ar {
     color: #000 !important;
 }
+
+/* Hide "Postponed" label */
+
+.by1.cL {
+    display: none;
+}
+
+.zA>.xY.byZ:empty, .zA>.xY.byZ:not(:empty)~.yf, .zA>.xY.byZ:not(:empty)~.xW {
+    display: block;
+}
