@@ -631,3 +631,8 @@ div[act="9"] {
 .zA>.xY.byZ:empty, .zA>.xY.byZ:not(:empty)~.yf, .zA>.xY.byZ:not(:empty)~.xW {
     display: block;
 }
+
+/* External label */
+.aau {
+    display: none;
+}
